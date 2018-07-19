@@ -1,0 +1,36 @@
+Unit 1, Lesson 2 - Select, From, Where
+
+
+
+# Question 1
+
+SELECT
+    trip_id,
+    duration
+FROM
+    trips
+WHERE
+	duration > 500
+ORDER BY duration DESC
+
+
+
+# Question 2
+
+SELECT
+    *
+FROM
+    stations 
+WHERE
+	station_id = 84
+
+
+
+# Question 3
+
+SELECT
+    MinTemperatureF
+FROM
+    weather 
+WHERE
+    zip_code = 94301
